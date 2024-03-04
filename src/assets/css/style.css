@@ -1,0 +1,61 @@
+svg#freepik_stories-404-error-with-a-cute-animal:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-404-error-with-a-cute-animal.animated
+    #freepik--error-404--inject-13 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fadeIn;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-404-error-with-a-cute-animal.animated
+    #freepik--Error--inject-13 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fadeIn;
+    animation-delay: 0s;
+}
+
+svg#freepik_stories-404-error-with-a-cute-animal.animated
+    #freepik--Character--inject-13 {
+    animation:
+        1s 1 forwards ease-out slideDown,
+        1.5s Infinite linear floating;
+    animation-delay: 0s, 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
